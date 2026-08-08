@@ -1,0 +1,498 @@
+<?xml version="1.0"?>
+
+<sdf version="1.7">
+
+  <model name="underwater_decorations">
+
+    <static>true</static>
+
+    <!-- ===================================================== -->
+    <!-- SEAWEED CLUSTER 1 -->
+    <!-- ===================================================== -->
+
+    <link name="seaweed_1">
+
+      <visual name="blade_1">
+        <pose>-0.18 0 0.55 0 0.12 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.05 1.1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.22 0.05 1</ambient>
+          <diffuse>0.03 0.42 0.08 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_2">
+        <pose>0 0 0.65 0 -0.10 0.05</pose>
+        <geometry>
+          <box>
+            <size>0.09 0.05 1.3</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.25 0.06 1</ambient>
+          <diffuse>0.03 0.48 0.10 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_3">
+        <pose>0.18 0 0.50 0 0.15 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.05 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.20 0.04 1</ambient>
+          <diffuse>0.03 0.40 0.07 1</diffuse>
+        </material>
+      </visual>
+
+    </link>
+
+
+    <!-- ===================================================== -->
+    <!-- SEAWEED CLUSTER 2 -->
+    <!-- ===================================================== -->
+
+    <link name="seaweed_2">
+
+      <pose>8 -7 0 0 0 0.5</pose>
+
+      <visual name="blade_1">
+        <pose>-0.15 0 0.45 0 0.15 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.05 0.9</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.25 0.05 1</ambient>
+          <diffuse>0.03 0.48 0.08 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_2">
+        <pose>0 0 0.58 0 -0.12 0</pose>
+        <geometry>
+          <box>
+            <size>0.09 0.05 1.16</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.22 0.04 1</ambient>
+          <diffuse>0.03 0.45 0.07 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_3">
+        <pose>0.16 0 0.42 0 0.18 0</pose>
+        <geometry>
+          <box>
+            <size>0.07 0.05 0.84</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.20 0.04 1</ambient>
+          <diffuse>0.03 0.40 0.07 1</diffuse>
+        </material>
+      </visual>
+
+    </link>
+
+
+    <!-- ===================================================== -->
+    <!-- SEAWEED CLUSTER 3 -->
+    <!-- ===================================================== -->
+
+    <link name="seaweed_3">
+
+      <pose>-10 -5 0 0 0 -0.4</pose>
+
+      <visual name="blade_1">
+        <pose>-0.15 0 0.55 0 0.10 0</pose>
+        <geometry>
+          <box>
+            <size>0.07 0.05 1.1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.20 0.05 1</ambient>
+          <diffuse>0.03 0.40 0.08 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_2">
+        <pose>0 0 0.70 0 -0.15 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.05 1.4</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.25 0.05 1</ambient>
+          <diffuse>0.03 0.50 0.09 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_3">
+        <pose>0.15 0 0.48 0 0.12 0</pose>
+        <geometry>
+          <box>
+            <size>0.07 0.05 0.96</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.18 0.04 1</ambient>
+          <diffuse>0.03 0.38 0.07 1</diffuse>
+        </material>
+      </visual>
+
+    </link>
+
+
+    <!-- ===================================================== -->
+    <!-- SEAWEED CLUSTER 4 -->
+    <!-- ===================================================== -->
+
+    <link name="seaweed_4">
+
+      <pose>15 10 0 0 0 0.8</pose>
+
+      <visual name="blade_1">
+        <pose>-0.16 0 0.48 0 0.12 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.05 0.96</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.22 0.05 1</ambient>
+          <diffuse>0.03 0.44 0.08 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_2">
+        <pose>0 0 0.62 0 -0.12 0</pose>
+        <geometry>
+          <box>
+            <size>0.09 0.05 1.24</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.24 0.05 1</ambient>
+          <diffuse>0.03 0.47 0.09 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_3">
+        <pose>0.16 0 0.45 0 0.15 0</pose>
+        <geometry>
+          <box>
+            <size>0.07 0.05 0.9</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.19 0.04 1</ambient>
+          <diffuse>0.03 0.39 0.07 1</diffuse>
+        </material>
+      </visual>
+
+    </link>
+
+
+    <!-- ===================================================== -->
+    <!-- SEAWEED CLUSTER 5 -->
+    <!-- ===================================================== -->
+
+    <link name="seaweed_5">
+
+      <pose>-18 12 0 0 0 -0.6</pose>
+
+      <visual name="blade_1">
+        <pose>-0.15 0 0.50 0 0.15 0</pose>
+        <geometry>
+          <box>
+            <size>0.08 0.05 1.0</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.22 0.05 1</ambient>
+          <diffuse>0.03 0.43 0.08 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_2">
+        <pose>0 0 0.60 0 -0.10 0</pose>
+        <geometry>
+          <box>
+            <size>0.09 0.05 1.2</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.25 0.05 1</ambient>
+          <diffuse>0.03 0.48 0.09 1</diffuse>
+        </material>
+      </visual>
+
+      <visual name="blade_3">
+        <pose>0.15 0 0.45 0 0.15 0</pose>
+        <geometry>
+          <box>
+            <size>0.07 0.05 0.9</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.02 0.18 0.04 1</ambient>
+          <diffuse>0.03 0.38 0.07 1</diffuse>
+        </material>
+      </visual>
+
+    </link>
+
+
+    <!-- ===================================================== -->
+    <!-- ROCK 1 -->
+    <!-- ===================================================== -->
+
+    <link name="rock_1">
+
+      <pose>-7 8 0.25 0.1 0.2 0.3</pose>
+
+      <visual name="rock_visual">
+
+        <geometry>
+          <sphere>
+            <radius>1.2</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.4 0.9 0.6</scale>
+
+        <material>
+          <ambient>0.16 0.14 0.11 1</ambient>
+          <diffuse>0.30 0.27 0.22 1</diffuse>
+          <specular>0.03 0.03 0.03 1</specular>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <!-- ROCK 2 -->
+
+    <link name="rock_2">
+
+      <pose>10 4 0.35 0.2 0.1 1.0</pose>
+
+      <visual name="rock_visual">
+
+        <geometry>
+          <sphere>
+            <radius>1.0</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.3 0.8 0.7</scale>
+
+        <material>
+          <ambient>0.14 0.13 0.11 1</ambient>
+          <diffuse>0.26 0.24 0.20 1</diffuse>
+          <specular>0.03 0.03 0.03 1</specular>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <!-- ROCK 3 -->
+
+    <link name="rock_3">
+
+      <pose>-15 -10 0.3 0.15 0.1 0.5</pose>
+
+      <visual name="rock_visual">
+
+        <geometry>
+          <sphere>
+            <radius>0.9</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.5 1.0 0.65</scale>
+
+        <material>
+          <ambient>0.17 0.15 0.12 1</ambient>
+          <diffuse>0.32 0.28 0.23 1</diffuse>
+          <specular>0.03 0.03 0.03 1</specular>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <!-- ROCK 4 -->
+
+    <link name="rock_4">
+
+      <pose>18 -12 0.25 0.1 0.15 0.7</pose>
+
+      <visual name="rock_visual">
+
+        <geometry>
+          <sphere>
+            <radius>1.1</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.2 0.9 0.6</scale>
+
+        <material>
+          <ambient>0.13 0.12 0.10 1</ambient>
+          <diffuse>0.25 0.23 0.19 1</diffuse>
+          <specular>0.03 0.03 0.03 1</specular>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <!-- SMALL ROCK 1 -->
+
+    <link name="small_rock_1">
+
+      <pose>5 -12 0.12 0 0 0</pose>
+
+      <visual name="rock_visual">
+
+        <geometry>
+          <sphere>
+            <radius>0.45</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.4 1.0 0.7</scale>
+
+        <material>
+          <ambient>0.15 0.13 0.10 1</ambient>
+          <diffuse>0.28 0.25 0.20 1</diffuse>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <!-- SMALL ROCK 2 -->
+
+    <link name="small_rock_2">
+
+      <pose>-3 14 0.15 0 0 0.4</pose>
+
+      <visual name="rock_visual">
+
+        <geometry>
+          <sphere>
+            <radius>0.5</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.3 0.9 0.7</scale>
+
+        <material>
+          <ambient>0.14 0.13 0.10 1</ambient>
+          <diffuse>0.27 0.24 0.19 1</diffuse>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <!-- SMALL ROCK 3 -->
+
+    <link name="small_rock_3">
+
+      <pose>12 14 0.12 0 0 0.8</pose>
+
+      <visual name="rock_visual">
+
+        <geometry>
+          <sphere>
+            <radius>0.4</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.4 1.0 0.7</scale>
+
+        <material>
+          <ambient>0.15 0.13 0.10 1</ambient>
+          <diffuse>0.29 0.25 0.20 1</diffuse>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <!-- ===================================================== -->
+    <!-- SMALL SAND MOUNDS -->
+    <!-- ===================================================== -->
+
+    <link name="sand_mound_1">
+
+      <pose>6 7 0.12 0 0 0</pose>
+
+      <visual name="mound">
+
+        <geometry>
+          <sphere>
+            <radius>0.7</radius>
+          </sphere>
+        </geometry>
+
+        <scale>2.0 1.4 0.3</scale>
+
+        <material>
+          <ambient>0.25 0.18 0.08 1</ambient>
+          <diffuse>0.45 0.32 0.15 1</diffuse>
+        </material>
+
+      </visual>
+
+    </link>
+
+
+    <link name="sand_mound_2">
+
+      <pose>-11 5 0.1 0 0 0</pose>
+
+      <visual name="mound">
+
+        <geometry>
+          <sphere>
+            <radius>0.8</radius>
+          </sphere>
+        </geometry>
+
+        <scale>1.8 1.2 0.25</scale>
+
+        <material>
+          <ambient>0.25 0.18 0.08 1</ambient>
+          <diffuse>0.45 0.32 0.15 1</diffuse>
+        </material>
+
+      </visual>
+
+    </link>
+
+  </model>
+
+</sdf>
